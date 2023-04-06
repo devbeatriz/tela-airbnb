@@ -54,3 +54,26 @@ h1 {
   background: #222;
   border-radius: 100%;
 }
+
+.information__left div:has(strong, a) {
+  font-weight: 600;
+}
+
+.information__right {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.information__right button {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 16px;
+  border: 0;
+  background: transparent;
+}
+
+.information__right button span {
+  text-decoration: underline;
+}
