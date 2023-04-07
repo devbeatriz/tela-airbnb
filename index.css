@@ -77,3 +77,32 @@ h1 {
 .information__right button span {
   text-decoration: underline;
 }
+
+.images {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 260px 260px;
+  margin-top: 24px;
+  border-radius: 12px;
+  overflow:hidden;
+}
+
+.images picture:first-child {
+  grid-row: 1 / 3;
+}
+
+.images picture {
+  overflow: hidden;
+}
+
+.images picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 0.4s;
+}
+
+.images picture:hover img {
+  scale: 1.3;
+}
