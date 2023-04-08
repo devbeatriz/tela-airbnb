@@ -9,7 +9,7 @@
 ## 💻 Projeto
 
 Projeto desenvolvido com o vídeo tutorial do <a href="https://github.com/leovargasdev">Léo Vargas</a>. <br>
-Durante a recriei a tela do Airbnb utilizando HTML e CSS, foram exploradas técnicas essenciais para a criação  de uma interface, incluindo o uso do display  grid e de alguns seletores do CSS.
+Durante o tutorial recriei a tela do Airbnb utilizando HTML e CSS, foram exploradas técnicas essenciais para a criação  de uma interface, incluindo o uso do display  grid e de alguns seletores do CSS.
 
 ## 📝 Aprendizados
 
